@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:background="#ececec"
+    >
+    <TextView
+        android:id="@+id/tvElvChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        tools:text="Name Name"
+        android:textStyle="bold"
+        android:paddingLeft="16dp" />
+
+    <ImageView
+        android:id="@+id/ivElvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@android:drawable/btn_star"
+        android:paddingHorizontal="4dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+
+        />
+</LinearLayout>

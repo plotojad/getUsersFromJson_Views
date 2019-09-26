@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvElvParent"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:layout_weight="1"
+    android:textAppearance="?android:attr/textAppearanceListItem"
+    android:textAlignment="viewStart"
+    android:gravity="center_vertical"
+    android:text="@string/activityuser_friends"
+    android:textStyle="bold|italic"
+    android:textColor="@color/ic_launcher_background"
+    android:textSize="12sp"
+    tools:text="Friends"
+    android:cursorVisible="false"
+    tools:ignore="RtlCompat" />
